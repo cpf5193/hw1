@@ -1,0 +1,71 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#header img{
+	height: 75px;
+	width: 90px;
+	position: absolute;
+}
+
+#header{
+	background-color: #F1DDAB;
+	height: 75px;
+}
+
+#footer{
+    background-color: #2A2F57;
+    bottom: 0;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+}
+
+#footer p{
+    font-size: 12px;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+	width: 100%;
+	background-color: #2A2F57;
+	height: 34px;
+	overflow: hidden;
+}
+
+nav{
+	padding-top: 20.5px;
+	margin-left: 90px;
+}
+
+nav a{
+	color: #FFF;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav li, nav a{
+	display: inline-block;
+}
+
+nav a:link, nav a:visited{
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #6D6772;
+}
