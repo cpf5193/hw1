@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dawg Pizza</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="cpf5193">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="shortcut icon" href="img/icon.png">
+	</head>
+	<body>
+		<div id="header">
+			<a href="index.shtml"><img src="img/logo.png" alt="pizza picture"></a>
+			<nav>
+				<ul>
+					<li>
+						<a href="index.shtml">Home</a>
+					</li>
+					<li>
+						<a href="menu.shtml">Menu</a>
+					</li>
+					<li>
+						<a href="about.shtml">About Us</a>
+					</li>
+					<li>
+						<a href="jobs.shtml">Jobs</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<div id="content">
+			<div id="nameblock">
+				<p>Jobs at Dawg Pizza</p>
+			</div>
+
+			<div id="info">
+				<h1>Open Positions</h1>
+				<img id="hiring" src="img/hiring.png" alt="hiring-image">
+				<div class="main-sect position">
+					<img class="hire-img" src="img/chef.png" alt="chef-image">
+					<h3>Kitchen Staff</h3>
+					<p><a href="mailto:dawgpizzaseattle@gmail.com">Contact Us</a> for more information on this position</p>
+				</div>
+				<div class="main-sect position">
+					<img class="hire-img" src="img/deliver.png" alt="driver-image">
+					<h3>Delivery Drivers</h3>
+					<p><a href="mailto:dawgpizzaseattle@gmail.com">Contact Us</a> for more information on this position</p>
+				</div>			
+				<div class="main-sect">
+					<p>We'd love to have you join our amazing staff! If you have questions or would like to apply, please call or <a href="mailto:dawgpizzaseattle@gmail.com">email us</a>!</p>
+				</div>	
+			</div>	
+		</div>
+
+		<div id="footer">
+		<p>© 2013 Dawg Pizza, inc.</p>
+		<p>Call us for Delivery: 206-555-1212</p>
+	</body>
+</html>
