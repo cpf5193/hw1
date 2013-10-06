@@ -80,7 +80,7 @@ nav a:hover{
     font-family: 'Tangerine',sans-serif;
     font-size: 72px;
     font-weight: bold;
-    height: 80px;
+    min-height: 80px;
     padding-top: 15px;
 }
 
@@ -139,7 +139,7 @@ nav a:hover{
 }
 
 .menu-item{
-	margin: 10px;f
+	margin: 10px;
 }
 
 #table-sect td{
@@ -184,6 +184,13 @@ nav a:hover{
 	text-decoration: underline;
 	font-size: 24px;
 	font-weight: bold;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: 50%;
+}
+
+#open-title{
+	display: inline-block;
 }
 
 .position img{
@@ -191,7 +198,8 @@ nav a:hover{
 }
 
 .position h3{
-	margin: 24px 0;
+	margin: 15px 0;
+	font-weight: bold;
 }
 
 img#hiring{

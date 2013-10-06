@@ -35,8 +35,10 @@
 			</div>
 
 			<div id="info">
-				<h1>Open Positions</h1>
-				<img id="hiring" src="img/hiring.png" alt="hiring-image">
+				<div id="open-title">
+					<h1>Open Positions</h1>
+					<img id="hiring" src="img/hiring.png" alt="hiring-image">
+				</div>
 				<div class="main-sect position">
 					<img class="hire-img" src="img/chef.png" alt="chef-image">
 					<h3>Kitchen Staff</h3>
